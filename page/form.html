@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-form">
+        <div class="info-form">
+            <h2>Contact me</h2>
+            <p> Feel free to reach out by filling out this form if you have any questions,
+                want to chat, or need to get in touch. I'll be attentive and ready to assist you.
+            </p>
+            <a href="#"><i class="fa fa-phone"></i> +51 937 815 077</a>
+            <a href="#"><i class="fa fa-envelope"></i> Gb281018@gmail.com</a>
+            <a href="#"><i class="fa fa-map-marked"></i> Lima, Peru</a>
+        </div>
+        <form action="#" autocomplete="off">
+            <input type="text" name="nombre" placeholder="Your name" class="camp">
+            <input type="email" name="email" placeholder="Your email" class="camp">
+            <textarea name="mensaje" placeholder="Message..."></textarea>
+            <input type="submit" name="enviar" value="Send Mesagge" class="btn-send">
+        </form>
+        <button onclick="goBack()" class="btn-send">Go Back</button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "../index.html";
+        }
+    </script>
+</body>
+</html>
